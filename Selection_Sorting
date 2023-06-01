@@ -15,19 +15,19 @@ public class Main
       {
 
 
-	int min_idx = i;
+	int min_value = i;
 
 	for (int j = i + 1; j < r; j++)
 
-	  if (array[j] < array[min_idx])
+	  if (array[j] < array[min_value])
 
-	      min_idx = j;
+	      min_value = j;
 
 
 
-	int temp = array[min_idx];
+	int temp = array[min_value];
 
-	  array[min_idx] = array[i];
+	  array[min_value] = array[i];
 
 	  array[i] = temp;
 
